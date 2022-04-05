@@ -1,12 +1,12 @@
 # Ex-02_DS_Outlier
 
-# AIM:
+# AIM
 To detect and remove the outliers in the given data set and save the final data.
 
-# EXPLANATION:
+# EXPLANATION
 Outlier is a data object that deviates significantly from the rest of the data objects and behaves in a different manner. They can be caused by measurement or execution errors. The analysis of outlier data is referred to as outlier analysis or outlier mining. The box plot is a useful graphical display for describing the behavior of the data in the middle as well as at the ends of the distributions. The box plot uses the median and the lower and upper quartiles (defined as the 25th and 75th percentiles). If the lower quartile is Q1 and the upper quartile is Q3, then the difference (Q3 - Q1) is called the interquartile range or IQ.
 
-# ALGORITHM:
+# ALGORITHM
 # Step 1
 Import the required packages(pandas,numpy,scipy)
 # Step 2
@@ -24,7 +24,7 @@ Check if the outliersare removed from data set using graphical methods.
 # Step 8
 Save the final data set into the file.
 
-# PROGRAM:
+# PROGRAM
 ```
 Developed by: Mitta.Yashaswi
 Register number:212221230062
@@ -73,7 +73,7 @@ df_new
 df.to_csv('weight.csv', index=False)
 ```
 
-# OUTPUT:
+# OUTPUT
 # Initial data set
 ![image](https://user-images.githubusercontent.com/94619247/161670517-e8619bee-6a25-4888-afad-88538e7f9dd7.png)
 
@@ -110,5 +110,5 @@ df.to_csv('weight.csv', index=False)
 ![image](https://user-images.githubusercontent.com/94619247/161670811-36020489-9e0a-4bf0-b2a1-83ae19022eb7.png)
 
 
-# RESULT:
+# RESULT
 Thus the outliers are detected and removed in the given file and the final data set is saved into the file.
