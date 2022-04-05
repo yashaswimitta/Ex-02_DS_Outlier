@@ -32,11 +32,10 @@ Check if the outliersare removed from data set using graphical methods.
 Save the final data set into the file.
 
 # PROGRAM:
-'''
+```
 Developed by: Mitta.Yashaswi
 Register number:212221230062
-'''
-~~~
+
 import pandas as pd
 df=pd.read_csv('weight.csv')
 df
@@ -79,7 +78,8 @@ df_new
 
 #saving data file
 df.to_csv('weight.csv', index=False)
-~~~
+```
+
 # OUTPUT:
 # Initial data set
 ![image](https://user-images.githubusercontent.com/94619247/161670517-e8619bee-6a25-4888-afad-88538e7f9dd7.png)
